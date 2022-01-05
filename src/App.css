@@ -10,11 +10,12 @@
 .book-container {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 55%;
   margin: auto;
   background: rgb(245, 245, 245);
   margin-top: 20px;
-  padding: 20px;
+  padding: 30px;
+  gap: 20px;
 }
 .book-img {
   width: 200px;
@@ -23,6 +24,10 @@
 .book-info {
   gap: 20px;
   display: flex;
+}
+
+.book-container p {
+  text-align: left;
 }
 
 /* ******************* header styles ************* */
